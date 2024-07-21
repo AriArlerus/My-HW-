@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Wage {
+    public static void main(String args[]) {
+      Scanner input = new Scanner (System.in);
+      
+      System.out.print("ค่าอัตราต่อชั่วโมง : ");
+      int n = input.nextInt();
+      System.out.print("จำนวนชั้วโมง : ");
+      int m = input.nextInt();
+      
+      int q = m-40;
+      int w = m*n
+      
+      if ( m > 40 ){
+          
+        
+          System.out.print((40*n)+(q*1.5*n));
+      }
+          
+      else{
+          
+          
+          System.out.print(w);
+          
+      }
+    }
+}
