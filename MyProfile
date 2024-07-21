@@ -1,0 +1,8 @@
+public class MyProfile { 
+
+    public static void main (String [] args) { 
+    System.out.println("Name: Arlerus Au-sub \nNickname: Petong \nBirthday: 25 September 2005 \nE-Mail: 6652300770@pim.ac.th \nHobby: Listen to music");
+    }
+    
+
+}
