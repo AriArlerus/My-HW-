@@ -1,0 +1,30 @@
+public class OneToHundred {
+    public static void main(String args[]) {
+        
+        //For
+        int i;
+      
+      for (i = 1; i <= 66 ; i++) {
+
+        System.out.println(i);
+      }
+      
+        /// While
+        while (i < 66) {
+        
+        System.out.println(i);
+        i++;
+        } 
+        
+        /// Do While
+        do {
+         System.out.println(i);
+        i++;
+        
+        } while (i <= 100);
+
+        
+
+
+    }
+}
