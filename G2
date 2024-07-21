@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class G2 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner (System.in);
+        System.out.print("โปรดใส่คาP:");
+        int P = input.nextInt();
+        System.out.print("โปรดใส่ค่าr:");
+        double x = input.nextDouble();
+        System.out.print("โปรดใส่ค่าt:");
+        int t = input.nextInt();
+        
+        int n = 1;
+        double r = x/100; 
+        double b = r/n;
+        
+
+        double a = Math.pow(1+b,n*t);
+
+        double A = P*a;
+
+        System.out.println("ค่าAเมื่อคำหนดt="+t+"คือ:"+A);
+        
+    }
+}
