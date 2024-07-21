@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Split {
+
+        public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        System.out.print("Input : ");
+        
+        String a = input.nextLine();
+        String [] t = a.split("-");
+        
+        for (String T : t){
+            System.out.print(T);
+            
+        }
+    }
+}
