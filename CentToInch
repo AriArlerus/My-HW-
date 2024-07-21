@@ -1,0 +1,11 @@
+public class CentToInch {
+    public static void main(String[] args) {
+        
+        double centimeter = 3.34;
+        
+        double inches = centimeter * 0.393701;
+        
+        System.out.println(centimeter + " เซนติเมตร เท่ากับ " + inches + " นิ้ว");
+        
+    }
+}
