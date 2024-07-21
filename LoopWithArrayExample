@@ -1,0 +1,12 @@
+public class LoopWithArrayExample {
+    public static void main(String[] args) {
+        int[] numbers = {111, 222, 333, 444, 555};
+        
+        int sum = 0;
+        
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println("ผลรวม : " + sum);
+    }
+}
