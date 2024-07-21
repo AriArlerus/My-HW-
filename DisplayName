@@ -1,0 +1,18 @@
+class Name { 
+    
+    public void display() { 
+        
+        System.out.println("Chanakarn Kingkaew 6322300149"); 
+        
+    } 
+        
+}
+
+public class DisplayName {
+    public static void main(String args[]) {
+        
+        Name d = new Name();
+        d.display();
+      
+    }
+}
