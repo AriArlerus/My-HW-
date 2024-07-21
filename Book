@@ -1,0 +1,62 @@
+class Book {
+    private String Name;
+    private Author Author;
+    private double Price;
+    private int Qty;
+    public Book (String name, Author author, double price){
+        this.Name = name;
+        this.Author = author;
+        this.Price = price;
+    }
+    public Book (String name, Author author, double price, int qty){
+        this.Name = name;
+        this.Author = author;
+        this.Price = price;
+        this.Qty = qty;
+    }
+    public String getName() {
+        return Name;
+    }
+    public Author getAuthor() {
+        return Author;
+    }
+    public double getPrice() {
+        return Price;
+    }
+    public void setPrice(double price) {
+        this.Price = price;
+    }
+    public int getQty() {
+        return Qty;
+    }
+    public void setQty(int qty) {
+        this.Qty = qty;
+    }
+    @Override
+    public String toString(){
+        return String.format("Book[name=%s, %s, price=%.2f,qty=%d", Name, Author, Price, Qty);
+    }
+}
+class Author {
+    private String Name;
+    private String Email;
+    private char Gender;
+    public Author (String name, String email, char gender){
+        this.Name = name;
+        this.Email = email;
+        this.Gender = gender;
+
+    }
+    public String getName() {
+        return Name;
+    }
+    public String getEmail() {
+        return Email;
+    }
+    public char getGender() {
+        return Gender;
+    }
+    public String toString(){
+        return String.format("Auther[name=%s, email=%s, gender=%s]", Name ,Email ,Gender);
+    }
+}
