@@ -1,0 +1,23 @@
+class Author {
+    private String Name;
+    private String Email;
+    private char Gender;
+    public Author (String name, String email, char gender){
+        this.Name = name;
+        this.Email = email;
+        this.Gender = gender;
+
+    }
+    public String getName() {
+        return Name;
+    }
+    public String getEmail() {
+        return Email;
+    }
+    public char getGender() {
+        return Gender;
+    }
+    public String toString(){
+        return String.format("Auther[name=%s, email=%s, gender=%s]", Name ,Email ,Gender);
+    }
+}
