@@ -21,3 +21,11 @@ class Author {
         return String.format("Auther[name=%s, email=%s, gender=%s]", Name ,Email ,Gender);
     }
 }
+public class AuthorTest {
+    public static void main (String [] args) {
+        
+        Author aa = new Author("Chanakarn Kingkaew","oakabc@gmail.com",'M');
+        System.out.println(aa);
+
+    }
+}
