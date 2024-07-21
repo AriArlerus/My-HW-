@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class G3 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner (System.in);
+        System.out.print("P = ");
+        int P = input.nextInt();
+        System.out.print("i = ");
+        double x = input.nextDouble();
+        System.out.print("n = ");
+        int y = input.nextInt();
+
+        double i = (x/100)/12; //System.out.println(i);
+        int n = y*12; //System.out.println(n);
+
+        double a = Math.pow(1+i,n);
+
+        double M = P*(i*a)/(a-1);
+
+        System.out.println("M is "+Math.round(M)+" When P = "+P );
+        
+    }
+}
