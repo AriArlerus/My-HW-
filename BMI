@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class  BMI {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner (System.in);
+        
+        System.out.print("weight");
+        double weight = input.nextDouble();
+        System.out.println(weight);
+        
+        System.out.print("height");
+        double h = input.nextDouble();
+        double height = h*0.01;
+        System.out.println(height);
+        
+        double BMI = weight / Math.pow(height,2);
+        System.out.println("BMI = " +BMI);
+        
+        if(BMI < 18.5){
+            System.out.println("น้ำหนักต่ำกว่าเกณฑ์");
+        }
+        if(BMI >= 18.5 && BMI <= 22.9){
+            System.out.println("สมส่วน");
+        }
+        if(BMI >= 230. && BMI <= 24.9){
+            System.out.println("น้ำหนักเกิน");
+        }
+        if(BMI >= 25.0 && BMI <= 29.9){
+            System.out.println("โรคอ้วน");    
+        }
+        else{ if(BMI >= 30)
+            System.out.println("โรคอ้วนอันตราย");
+        }  
+    }
+}
