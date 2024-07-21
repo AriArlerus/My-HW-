@@ -1,0 +1,17 @@
+public class ARLERUS {
+    
+    
+    public static void main(String args[]) {
+       
+    double a = 5.0;
+    double b = 11.0;
+    double c = 99.0;
+    double d = 29.0;
+    double e = 8.0;
+    double f = 1.0;
+    double g = 5.5;
+    double h = 3.0;
+      System.out.print(a+b*c/(d*e)-(f+g)-h);
+      
+    }
+}
